@@ -20,4 +20,3 @@ A variety of methods were attempted which included kNN Classifiers, Random Fores
 # General Findings
 The biggest takeways from this project were the fact that every day devices have a large untapped potential. In this case, it was pertaining Parkinson's disease but this could be generalized to any disease or condition that affects movement. The fact of the matter is that smartphones, smartwatches and fitness trackers already have sensors built in them that can collect data that can be transformed and used for different purposes. In this case, features were extracted from the sensor data in an attempt to isolate tremors and predict their severity. 
 
-```
