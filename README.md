@@ -1,6 +1,6 @@
 
-## Author: Lisbeth Santana
-## Florida International University
+# Author: Lisbeth Santana
+# Florida International University
 
 # Overview
 This project is focused on the prediction of tremor severity for patients suffering from Parkinson's disease. The data for this project is organized in 20-minute measurement windows of sensor data collected from smartphones and smartwatches. Each 20-minute interval is broken down into 30-second windows from which features are extracted and used to train a variety of general Machine Learning and ensemble models, of which XGBoost Regressors perform best. The extracted features seek to isolate the amplitude and frequency of any tremors present in these sub measurements in order to identify the severity of the same. 
