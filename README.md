@@ -3,7 +3,7 @@
 ## Florida International University
 
 # Overview
-	This project is focused on the prediction of tremor severity for patients suffering from Parkinson's disease. The data for this project is organized in 20-minute measurement windows of sensor data collected from smartphones and smartwatches. Each 20-minute interval is broken down into 30-second windows from which features are extracted and used to train a variety of general Machine Learning and ensemble models, of which XGBoost Regressors perform best. The extracted features seek to isolate the amplitude and frequency of any tremors present in these sub measurements in order to identify the severity of the same. 
+This project is focused on the prediction of tremor severity for patients suffering from Parkinson's disease. The data for this project is organized in 20-minute measurement windows of sensor data collected from smartphones and smartwatches. Each 20-minute interval is broken down into 30-second windows from which features are extracted and used to train a variety of general Machine Learning and ensemble models, of which XGBoost Regressors perform best. The extracted features seek to isolate the amplitude and frequency of any tremors present in these sub measurements in order to identify the severity of the same. 
 
 # Data 
   The data for this project was obtained from the Dream BEAT-PD Challenge which was hosted in the beginning of 2020. Only participants have access to the data, however general methods can still be discussed. In general, the data was comprised of 20-minute intervals of accelerometer and gyroscope data, sampled at 50 Hz. Each of these measurements were labelled on a scale of 0 to 4, where 0 represented no tremors, and 4 represented the most severe ones. 
